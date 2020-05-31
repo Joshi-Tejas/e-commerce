@@ -1,0 +1,95 @@
+html, body
+{
+	margin: 0;
+	height: 100%;
+	font-family: sans-serif;
+}
+
+header
+{
+	padding: 10px;
+	padding-left: 10%;
+	color: white;
+	background-color: #4287f5;
+}
+
+nav
+{
+	padding: 7px;
+	padding-left: 10%;
+	box-shadow: 5px 5px 5px grey;
+}
+
+h1, h2
+{
+	margin: 0;
+}
+
+.inp
+{
+	width: 100%;
+	border-style: solid;
+	border-color: black;
+	border-width: 0 0 1px 0;
+	padding: 5px;
+	margin-bottom: 10px;
+	background-color: #4287f5;
+}
+
+.inp:focus
+{
+	border-style: solid;
+	border-color: white;
+	border-width: 0 0 3px 0;
+}
+
+#showButton
+{
+	margin-top: 20px;
+	border: none;
+	color: white;
+	background-color: #4287f5;
+}
+
+#login
+{
+	margin-top: 20px;
+	border: none;
+	padding: 10px;
+	color: white;
+	background-color: #4287f5;
+}
+
+#wrapper
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#page-content
+{
+	color: white;
+	width: 30%;
+	margin: 20px;
+	padding: 40px;
+	margin-top: 50px;
+	background-color: #4287f5;
+}
+
+#below
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#page-content2
+{
+	width: 30%;
+}
+
+#login
+{
+	float: right;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+	<head>
+		<title>Welcome to Ammajaan!</title>
+
+		<link rel="stylesheet" type="text/css" href="../styles/index.css">
+
+		<script type="text/javascript">
+			function showPass()
+			{
+				var x = document.getElementById("pass");
+				var y = document.getElementById("showButton");
+				if (x.type === "password")
+				{
+					x.type = "text";
+					y.value = "hide password";
+				}
+				else
+				{
+					x.type = "password";
+					y.value = "show password";
+				}
+			}
+		</script>
+	</head>
+
+	<body>
+		<header><h1>AMMAJAAN</h1></header>
+		<nav><h2>Login</h2></nav>
+		<div id="wrapper">
+			<div id="page-content">
+				email:<br>
+				<input class="inp" type="text" name="email" autocomplete="off"><br>
+				password:<br>
+				<input class="inp" type="password" id="pass" name="pass" autocomplete="off">
+				<br>
+				<input type="button" id="showButton" value="show password"
+					   autocomplete="off" onclick="showPass()"><br>
+			</div>
+		</div>
+		<div id="below">
+			<div id="page-content2">
+				<a href="home.html"><button id="login" type="button">Login</button></a>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,12 @@
+h1, h2
+{
+	margin: 0;
+}
+
+header
+{
+	padding: 10px;
+	padding-left: 10%;
+	color: white;
+	background-color: #4287f5;
+}
